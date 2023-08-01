@@ -9,3 +9,7 @@ Burada html, css ve js kullanarak olu≈üturulan basit projeler var. Zaman bulduk√
 ## 2- Update CSS Variables with JS
 
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTNkYjczMjIyMjhiNmNkMzVmMjFhMmQ0OGNkYzJkODE2NGIyMDQ4OSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/AHcYsB2dreppP4mLFR/giphy.gif)
+
+## 3- Sing-Form
+
+![](https://i.imgur.com/tk5KWN5.png)
