@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #f0f4f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: larger;
+}
+
+.container{
+    background-color: white;
+    height: 85%;
+    width: 75%;
+    border-radius: 35px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+/* Left Side Start */
+
+.left-side{
+    flex: 0 40%;
+    border-radius: 35px 0 0 35px;
+    background-color: #3BB397;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.left-content{
+    width: 70%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px ;
+}
+
+.leftSideTitle{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.leftSideParag{
+    font-size: 20px;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.right-side{
+    flex: 0 60%;
+
+}
+
+.leftBtn{
+    padding: 10px 60px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 00;
+    letter-spacing: 1px;
+    color: white;
+}
+.leftBtn:hover{
+    background-color:#36a38b;
+    
+}
+
+/* Left Side Start */
+
+/* Right Side Start */
+.right-side{
+    color: darkblue;
+    display: flex;
+    flex: 0 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-content{
+    display: flex;
+    width: 90%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-content > h1{
+    color: #3BB397;
+}
+
+.links{
+    display: flex;
+}
+
+.links a > svg {
+margin-inline: 10px;
+padding: 1px;
+border: none;
+box-sizing:border-box;
+}
+
+.icon:hover{
+    transition: 0.4s;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+/* Form Group Start */
+
+.form{
+    flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group{
+    position: relative;
+}
+
+.form-group input{
+    width: 250px;
+    background-color: #f4f8f7;
+    font-size: 13px;
+    font-weight: 200;
+    padding: 14px 0;
+    border: none;
+    padding-left: 35px;
+}
+.form-group input::placeholder{
+    color:#a2a2a2;
+}
+
+
+.form-group i{
+ width: 20px ;
+ height: 20px ;
+  color: #a2a2a2;
+  position: absolute;
+  left:3%;
+  top:50%;
+  transform: translate(0, -50%)
+
+}
+
+/* Form Button */
+
+.btnForm{
+    width: 180px;
+    padding: 10px 40px;
+    background-color: #3BB397;
+    border-radius: 30px;
+    color: white;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+.btnForm:hover{
+    background-color: #46c0a4;
+}
+
+/* Form Group End*/
